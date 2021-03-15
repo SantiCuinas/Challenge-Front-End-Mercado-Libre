@@ -1,0 +1,20 @@
+@font-face {
+  font-family: "ProximaNova";
+  src: local("ProximaNova"),
+    url(../fonts/ProximaNova-Regular.otf) format("woff");
+}
+
+body {
+  background-color: #eeeeee;
+  font-family: "ProximaNova";
+  color: #333333;
+}
+
+p {
+  font-family: "ProximaNova";
+}
+
+.main-container {
+  display: grid;
+  grid-template-columns: auto 980px auto;
+}

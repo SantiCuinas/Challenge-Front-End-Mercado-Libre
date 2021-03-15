@@ -1,0 +1,36 @@
+.top-container {
+    display: grid;
+    grid-template-columns: auto 980px auto;
+    grid-column: 1/4;
+    background-color: #ffe600;
+  }
+
+  .elements-container {
+    grid-column: 2;
+    display: grid;
+    grid-template-columns: auto 857px auto;
+  }
+
+  .logo {
+    grid-column: 1;
+    margin: 10px 26px 10px 0px;
+  }
+
+  .text-input {
+    margin: 9px 0;
+    height: 36px;
+    border: none;
+    grid-column: 2;
+    font-family: "ProximaNova";
+    text-indent: 8px;
+    font-size: 18px;
+  }
+  
+  .search-input {
+    grid-column: 3;
+    background-color: #eeeeee;
+    width: 45px;
+    height: 38px;
+    margin: 9px 0;
+    object-fit: none;
+  }
